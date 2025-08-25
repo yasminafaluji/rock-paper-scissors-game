@@ -1,0 +1,19 @@
+      .circle-btn {
+        width: 8em;
+        height: 8em;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        font-size: 1.2em;
+        transition: transform 0.2s;
+      }
+      .circle-btn i {
+        font-size: 2.2em;
+        margin-bottom: 0.4em;
+        color: #f2c397;
+      }
+      .circle-btn span {
+        color: #333;
+      }
+      .circle-btn:hover {
+        transform: scale(1.08);
+      }
